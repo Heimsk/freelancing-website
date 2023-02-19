@@ -1,6 +1,6 @@
 ### Description
 
-A simple freelancing website made with NextJS 13, SASS, HTML, Typescript, ade just for training and for fun
+A simple freelancing website made with NextJS 13, SASS, HTML and Typescript, made just for training and for fun
 
 ### Demo
 
