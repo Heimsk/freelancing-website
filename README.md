@@ -12,4 +12,4 @@ You can access the demo website here: https://freelancing-website-omega.vercel.a
 - Create notifications/profile dropdown
 - Create dashboard page
 
-(Animations downloaded on [LottieFiles](https://lottiefiles.com/))
+(Animations from [LottieFiles](https://lottiefiles.com/))
