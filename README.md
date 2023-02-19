@@ -4,7 +4,7 @@ A simple freelancing website made with NextJS 13, SASS, HTML, Typescript, ade ju
 
 ### Demo
 
-You can access the demo website here: https://freelancing-website-omega.vercel.app/dashboard
+You can access the demo website here: https://freelancing-website-omega.vercel.app/
 
 ### Todo
 
