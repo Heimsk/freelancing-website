@@ -6,7 +6,7 @@ A simple freelancing website made with NextJS 13, SASS, HTML, Typescript, ade ju
 
 You can access the demo website here: https://freelancing-website-omega.vercel.app/
 
-### Todo
+### To do
 
 - Create a login page
 - Create notifications/profile dropdown
