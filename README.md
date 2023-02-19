@@ -8,4 +8,4 @@ A simple freelancing website made with NextJS 13, SASS, HTML, Typescript, ade ju
 - Create notifications/profile dropdown
 - Create dashboard page
 
-(Animation downloaded on [LottieFiles](https://lottiefiles.com/))
+(Animations downloaded on [LottieFiles](https://lottiefiles.com/))
