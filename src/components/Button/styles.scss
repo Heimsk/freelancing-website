@@ -1,0 +1,72 @@
+.button {
+  background: var(--primary);
+  outline: none;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.25s;
+  justify-content: center;
+
+  & i {
+    margin-top: 1px;
+
+    &[data-side="left"] {
+      margin-right: 5px;
+    }
+
+    &[data-side="right"] {
+      margin-left: 5px;
+    }
+  }
+
+  & span {
+    white-space: nowrap;
+  }
+
+  &[data-icon-only="true"] {
+    & i {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &[data-style~="rounded"] {
+    border-radius: 50px;
+  }
+
+  &[data-style~="outline"] {
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+  }
+
+  &[data-small="true"] {
+    font-size: 16px;
+    padding: 8px 18px;
+  }
+
+  &[data-wide="true"] {
+    width: 100%;
+  }
+
+  &:hover {
+    &[data-hover-effect~="fill"] {
+      background-color: var(--primary);
+      color: white;
+    }
+
+    &[data-hover-effect~="square"] {
+      border-radius: 12px;
+    }
+
+    &[data-hover-effect~="round"] {
+      border-radius: 50px;
+    }
+  }
+}

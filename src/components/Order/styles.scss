@@ -1,0 +1,146 @@
+.order {
+  width: calc(100% - 80px);
+  min-height: 200px;
+  background-color: rgba(169, 169, 169, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  margin: 20px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all ease-in-out 0.7s;
+
+  &.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.full {
+  width: 100%;
+}
+
+.detail {
+  color: var(--darktext);
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text);
+
+  & .content {
+    max-width: 75%;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 17px;
+  }
+}
+
+.subtitle {
+  color: var(--darktext);
+  padding-left: 1px;
+  font-size: 13px;
+
+  @media (max-width: 768px) {
+    font-size: 11px;
+  }
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: var(--primary);
+  margin-right: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.space {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.marker {
+  padding: 10px;
+  font-size: 22px;
+  color: var(--darktext);
+  border: 2px solid darkgray;
+  border-radius: 8px;
+  transition: all 0.25s;
+  cursor: pointer;
+  z-index: 4;
+
+  &:hover {
+    background-color: var(--primary);
+    color: white;
+    border: 2px solid var(--primary);
+  }
+}
+
+.down {
+  margin-top: 20px;
+}
+
+.desc {
+  font-size: 15px;
+  color: var(--text);
+}
+
+.tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .tag {
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: var(--darktext);
+    font-weight: bold;
+    background-color: rgba(169, 169, 169, 0.2);
+    font-size: 13px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}
+
+.infos {
+  margin-top: 20px;
+  font-size: 15px;
+  color: var(--text);
+
+  & > span {
+    margin-left: 10px;
+  }
+}
+
+.stars {
+  color: orange;
+}
+
+.center {
+  align-items: center;
+}
+
+.text-color {
+  color: var(--text);
+}
+
+@media (max-width: 768px) {
+  .marker,
+  .image {
+    display: none;
+  }
+}

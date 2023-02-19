@@ -1,0 +1,129 @@
+.hero {
+  width: 100%;
+  min-height: 650px;
+
+  // @media (max-width: 768px) {
+  //   min-height: 50vh;
+  // }
+
+  & .hero_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 650px;
+    width: 100%;
+
+    & .columns {
+      display: flex;
+      align-items: center;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        padding-top: 50px;
+        min-height: 50vh;
+      }
+
+      & .column {
+        width: 50%;
+
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--text);
+}
+
+.color {
+  // background: -webkit-linear-gradient(#00ff95 5%, var(--primary) 95%);
+  // -webkit-background-clip: text;
+  // background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  color: var(--primary);
+}
+
+.subtitle {
+  margin-top: 5px;
+  color: var(--darktext);
+  font-size: 20px;
+}
+
+.top_title {
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+
+  & button {
+    margin-top: 10px;
+  }
+
+  & > :first-child {
+    margin-right: 15px;
+  }
+}
+
+.text_center {
+  text-align: center;
+}
+
+.arrow {
+  color: var(--primary);
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 6px;
+  transition: all 0.25s;
+  cursor: pointer;
+  margin-top: 30px;
+
+  &:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+}
+
+.cards_container {
+  min-height: 100px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  justify-content: center;
+
+  & > :first-child {
+    margin-left: none;
+  }
+
+  & > div {
+    margin-left: 30px;
+    margin-top: 30px;
+
+    @media (max-width: 768px) {
+      margin-left: none;
+    }
+  }
+}
+
+.header {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
