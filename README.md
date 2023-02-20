@@ -8,6 +8,9 @@ You can access the demo website here: https://freelancing-website-omega.vercel.a
 
 ### To do
 
+- [ ] Create cookie notice
+- [ ] Create popup menu
+- [ ] Create footer
 - [ ] Create a login page
 - [ ] Create notifications/profile dropdown
 - [ ] Create dashboard page
