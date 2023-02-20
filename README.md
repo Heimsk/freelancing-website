@@ -14,5 +14,6 @@ You can access the demo website here: https://freelancing-website-omega.vercel.a
 - [ ] Create a login page
 - [ ] Create notifications/profile dropdown
 - [ ] Create dashboard page
+- [ ] Multiple language support
 
 (Animations from [LottieFiles](https://lottiefiles.com/))
