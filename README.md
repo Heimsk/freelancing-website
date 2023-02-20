@@ -8,8 +8,8 @@ You can access the demo website here: https://freelancing-website-omega.vercel.a
 
 ### To do
 
-- Create a login page
-- Create notifications/profile dropdown
-- Create dashboard page
+- [ ] Create a login page
+- [ ] Create notifications/profile dropdown
+- [ ] Create dashboard page
 
 (Animations from [LottieFiles](https://lottiefiles.com/))
