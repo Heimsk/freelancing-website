@@ -1,3 +1,5 @@
+"use client";
+
 import "./styles.scss";
 import { ReactNode } from "react";
 
@@ -14,6 +16,8 @@ export interface Props {
   small?: boolean;
   wide?: boolean;
   iconOnly?: boolean;
+
+  onClick?(): any;
 }
 
 export function Button(props: Props) {
@@ -26,6 +30,7 @@ export function Button(props: Props) {
       data-wide={props.wide ? "true" : "false"}
       data-icon-only={props.iconOnly ? "true" : "false"}
       className="button"
+      onClick={() => props.onClick?.()}
     >
       {props.icon && (props.iconPos == "left" || !props.iconPos) && (
         <i data-side="left">{props.icon}</i>
