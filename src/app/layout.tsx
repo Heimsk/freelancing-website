@@ -1,3 +1,4 @@
+import { CookieConsent } from "@/components/CookieConsent";
 import { Navbar } from "@/components/Navbar";
 import "./globals.scss";
 
@@ -14,6 +15,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         <div className="helper">{children}</div>
+        <CookieConsent />
       </body>
     </html>
   );
